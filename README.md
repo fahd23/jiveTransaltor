@@ -1,4 +1,4 @@
-# minionsTranslator
+# Jive Translator
 This is GUI mnions Translator by vanilla js.
-Are you a fan of minions? Did you know that the gibberish they say is an actual language. 
-Use the translator to convert your text from English to Minion speak or Banana language.
+Convert from English to Jive Speak.
+Jive talk ( or Harlem Jive) was the distinctive slang which developed in Harlem, NY and subsequently adopted more widely in US.
