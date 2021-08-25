@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --primary: #96a0ce;
+    --secondary: #11324D;
+}
+
+body {
+    margin: 0;
+    font-family: Ubuntu;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+nav {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar h1 {
+    font-size: 2rem;
+}
+
+#txtinput {
+    padding: 1rem;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    max-width:130vh;
+    max-height: 214px;
+    margin-top: 2rem;
+    font-size: large;
+}
+
+#btn {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: none;
+    margin: 1rem 0rem;
+    font-family: Ubuntu;
+    padding: 1rem 2rem;
+    font-size: large;
+}
+
+#txtoutput {
+    padding: 1rem;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 15vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--secondary);
+    margin-bottom: 1rem;
+}
+
+footer {
+    color: var(--secondary);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+footer p {
+    font-family:Ubuntu;
+    max-width: 600px;
+    margin: auto;
+}
+
+footer a {
+    color: var(--secondary);
+    margin: 1rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    footer p{
+        max-width: 400px;
+    }
+}
